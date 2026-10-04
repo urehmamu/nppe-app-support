@@ -36,7 +36,7 @@
       <ul>
         <li><strong>Account information:</strong> your email address, account identifier, authentication information and profile details such as province or territory when provided during registration. Our authentication provider processes passwords; support never needs your password.</li>
         <li><strong>Study records:</strong> quiz and mock-exam sessions, selected answers, scores, completion times and domain performance associated with your account.</li>
-        <li><strong>Access and purchase records:</strong> plan, access expiry and mobile entitlement. Website purchase records may include transaction identifiers, amount, purchaser name and card last four digits. Stripe processes website card payments; our app does not ask you to enter full card details.</li>
+        <li><strong>Access and purchase records:</strong> plan, access expiry and mobile entitlement. Website purchase records may include transaction identifiers, amount, purchaser name and card last four digits. Where Apple purchases are available, our server verifies Apple transaction identifiers, product, purchase date, environment, account association, access period and refund or revocation status. Apple processes in-app payment; Stripe processes website card payments. Our app does not ask you to enter full card details.</li>
         <li><strong>Tutor information:</strong> questions and conversation text you submit, relevant quiz context, and account-linked request counts used to enforce daily limits. See the AI Tutor section.</li>
         <li><strong>Support information:</strong> contact details, messages, device/app details and any screenshots or attachments you choose to send us.</li>
         <li><strong>Technical information:</strong> network requests to our service providers include information such as IP address and request metadata. Operational and security logs may be handled by those providers.</li>
@@ -61,6 +61,7 @@
         <li><a href="https://supabase.com/privacy">Supabase</a> provides authentication and database services for accounts, study records and access information.</li>
         <li><a href="https://vercel.com/legal/privacy-policy">Vercel</a> hosts the website and server endpoints used by the app.</li>
         <li><a href="https://stripe.com/privacy">Stripe</a> processes website payments and associated transaction information.</li>
+        <li><a href="https://www.apple.com/legal/privacy/">Apple</a> processes App Store purchases where offered and provides signed transaction and refund information to verify and restore access. Apple handles payment details under its own privacy practices.</li>
         <li><a href="https://www.anthropic.com/privacy">Anthropic</a> processes tutor content as described above.</li>
         <li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub</a> hosts this public privacy page and our support page. Visiting them creates normal web requests to GitHub; they do not require an NPPE account.</li>
       </ul>
@@ -69,7 +70,7 @@
     <section class="card" aria-labelledby="retention-title">
       <h2 id="retention-title">6. Retention and deletion</h2>
       <p>Account and study records are retained while needed to provide your account and study history. Account deletion removes your authentication account, profile, quiz sessions, answers and tutor usage records from the active application databases.</p>
-      <p>Limited purchase information can remain after deletion for accounting, legal obligations, fraud prevention and chargeback handling. These records can include your email, former account identifier, purchaser name, card last four digits, plan, amount, transaction identifier and transaction dates. Retained transaction records do not keep your study account active. Contact us for information about retention applicable to your records.</p>
+      <p>Limited purchase information can remain after deletion for accounting, legal obligations, fraud prevention and chargeback handling. These records can include your email, former account identifier, purchaser name, card last four digits, plan, amount, transaction identifier and transaction dates. Apple purchase records may retain the original account-association identifier, transaction/product identifiers, dates and revocation status after the active account association is removed. Retained transaction records do not keep your study account active. Contact us for information about retention applicable to your records.</p>
       <p>Service-provider logs, backups and content already sent to third parties may remain subject to those providers' retention practices and applicable legal obligations. Deleting an account does not necessarily erase all such copies immediately. Uninstalling the app does not delete your online account.</p>
     </section>
     <section class="contact-card" id="privacy-choices" aria-labelledby="choices-title">
